@@ -10,7 +10,7 @@ const mongoUrl = process.env.MONGODB_URL
 
 const app = express();
 app.get('/', (req, res) => {
-    logger.info('Received a request on /');
+    logger.info('Received a request on ');
     res.send('Hello, World!');
 });
 
