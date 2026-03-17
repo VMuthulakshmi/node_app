@@ -2,7 +2,7 @@ name: Helloworld
 on:
   workflow_dispatch:
 env:
-  MY_VAR: ${{ DEMO_SECRET }}
+  MY_VAR: ${{ secretes.DEMO_SECRET }}
 jobs:
   build:
     runs-on: ubuntu-latest
