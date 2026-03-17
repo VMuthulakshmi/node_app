@@ -6,6 +6,7 @@ import {config} from 'dotenv'
 config()
 
 const port = process.env.SERVER_PORT || 8080
+
 const mongoUrl = process.env.MONGODB_URL
 
 const app = express();
