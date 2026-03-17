@@ -8,5 +8,5 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Variable get action
-        run: echo "Hello, World! $MY_VAR"
+        run: echo "Hello, World!" $MY_VAR
 
