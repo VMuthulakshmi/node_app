@@ -1,9 +1,12 @@
 name: Helloworld
-on: [push]
+on:
+  workflow_dispatch:
+env:
+  MY_VAR: ${{ DEMO_SECRET }}
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - name: Helloworld Action
-        run: echo "Hello, World!"
+      - name: Variable get action
+        run: echo "Hello, World! $MY_VAR"
 
