@@ -7,6 +7,6 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - name: Helloworld Action
+      - name: Helloworld Action 1
         run: echo "Hello, World!"
 
